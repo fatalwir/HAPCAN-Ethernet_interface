@@ -2,11 +2,226 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "Conn_CAN-Bus"
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "CON"
+			(at -1.27 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Connectors CAN bus"
+			(at -1.27 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ProjectLib:Conn_CAN-Bus"
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_CAN-Bus_1_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 0 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.667)
+				(end 0 -2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -0.127)
+				(end 0 0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.413)
+				(end 0 2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 4.953)
+				(end 0 5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin power_out line
+				(at 6.35 0 180)
+				(length 6.35)
+				(name "+24V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "+24V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 5.08 180)
+				(length 6.35)
+				(name "CANH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "CANH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 2.54 180)
+				(length 6.35)
+				(name "CANL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "CANL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 -2.54 180)
+				(length 6.35)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -1.27 5.08 270)
+				(length 6.35) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "HLK-7628N"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?"
+		(property "Reference" "U"
 			(at 0 38.1 0)
 			(effects
 				(font
@@ -91,7 +306,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 11.43 0)
+				(at -20.32 12.7 0)
 				(length 2.54)
 				(name "EPHY_LED3"
 					(effects
@@ -109,7 +324,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 8.89 0)
+				(at -20.32 10.16 0)
 				(length 2.54)
 				(name "EPHY_LED2"
 					(effects
@@ -127,7 +342,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 6.35 0)
+				(at -20.32 7.62 0)
 				(length 2.54)
 				(name "EPHY_LED1"
 					(effects
@@ -145,7 +360,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 3.81 0)
+				(at -20.32 5.08 0)
 				(length 2.54)
 				(name "EPHY_LED0"
 					(effects
@@ -163,7 +378,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 1.27 0)
+				(at -20.32 2.54 0)
 				(length 2.54)
 				(name "PORST_N"
 					(effects
@@ -181,7 +396,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -1.27 0)
+				(at -20.32 0 0)
 				(length 2.54)
 				(name "UART_TXD1"
 					(effects
@@ -199,7 +414,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -3.81 0)
+				(at -20.32 -2.54 0)
 				(length 2.54)
 				(name "UART_RXD1"
 					(effects
@@ -217,7 +432,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -6.35 0)
+				(at -20.32 -5.08 0)
 				(length 2.54)
 				(name "I2S_SDI"
 					(effects
@@ -235,7 +450,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -8.89 0)
+				(at -20.32 -7.62 0)
 				(length 2.54)
 				(name "I2S_SDO"
 					(effects
@@ -253,7 +468,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -11.43 0)
+				(at -20.32 -10.16 0)
 				(length 2.54)
 				(name "I2S_WS"
 					(effects
@@ -271,7 +486,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 31.75 0)
+				(at -20.32 33.02 0)
 				(length 2.54)
 				(name "3.3VD"
 					(effects
@@ -289,7 +504,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -13.97 0)
+				(at -20.32 -12.7 0)
 				(length 2.54)
 				(name "I2S_CLK"
 					(effects
@@ -325,7 +540,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -19.05 0)
+				(at -20.32 -17.78 0)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -361,7 +576,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -24.13 0)
+				(at -20.32 -22.86 0)
 				(length 2.54)
 				(name "I2C_SCLK"
 					(effects
@@ -379,7 +594,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -26.67 0)
+				(at -20.32 -25.4 0)
 				(length 2.54)
 				(name "I2C_SD"
 					(effects
@@ -397,7 +612,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -29.21 0)
+				(at -20.32 -27.94 0)
 				(length 2.54)
 				(name "SPI_CS1"
 					(effects
@@ -415,7 +630,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -31.75 0)
+				(at -20.32 -30.48 0)
 				(length 2.54)
 				(name "SPI_CLK"
 					(effects
@@ -433,7 +648,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 -34.29 0)
+				(at -20.32 -33.02 0)
 				(length 2.54)
 				(name "SPI_MISO"
 					(effects
@@ -451,7 +666,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -34.29 180)
+				(at 20.32 -33.02 180)
 				(length 2.54)
 				(name "SPI_MOSI"
 					(effects
@@ -469,7 +684,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 29.21 0)
+				(at -20.32 30.48 0)
 				(length 2.54)
 				(name "3.3VD"
 					(effects
@@ -487,7 +702,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -31.75 180)
+				(at 20.32 -30.48 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -505,7 +720,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -29.21 180)
+				(at 20.32 -27.94 180)
 				(length 2.54)
 				(name "UART_TXD0"
 					(effects
@@ -523,7 +738,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -26.67 180)
+				(at 20.32 -25.4 180)
 				(length 2.54)
 				(name "UART_RXD0"
 					(effects
@@ -541,7 +756,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -24.13 180)
+				(at 20.32 -22.86 180)
 				(length 2.54)
 				(name "WLED_N"
 					(effects
@@ -559,7 +774,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -21.59 180)
+				(at 20.32 -20.32 180)
 				(length 2.54)
 				(name "MDI_RP_P0"
 					(effects
@@ -577,7 +792,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -19.05 180)
+				(at 20.32 -17.78 180)
 				(length 2.54)
 				(name "MDI_RN_P0"
 					(effects
@@ -595,7 +810,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -16.51 180)
+				(at 20.32 -15.24 180)
 				(length 2.54)
 				(name "MDI_TP_P0"
 					(effects
@@ -613,7 +828,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -13.97 180)
+				(at 20.32 -12.7 180)
 				(length 2.54)
 				(name "MDI_TN_P0"
 					(effects
@@ -631,7 +846,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -11.43 180)
+				(at 20.32 -10.16 180)
 				(length 2.54)
 				(name "MDI_TP_P1"
 					(effects
@@ -649,7 +864,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -8.89 180)
+				(at 20.32 -7.62 180)
 				(length 2.54)
 				(name "MDI_TN_P1"
 					(effects
@@ -685,7 +900,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -6.35 180)
+				(at 20.32 -5.08 180)
 				(length 2.54)
 				(name "MDI_RP_P1"
 					(effects
@@ -703,7 +918,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -3.81 180)
+				(at 20.32 -2.54 180)
 				(length 2.54)
 				(name "MDI_RN_P1"
 					(effects
@@ -721,7 +936,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 -1.27 180)
+				(at 20.32 0 180)
 				(length 2.54)
 				(name "MDI_RP_P2"
 					(effects
@@ -739,7 +954,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 1.27 180)
+				(at 20.32 2.54 180)
 				(length 2.54)
 				(name "MDI_RN_P2"
 					(effects
@@ -757,7 +972,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 3.81 180)
+				(at 20.32 5.08 180)
 				(length 2.54)
 				(name "MDI_TP_P2"
 					(effects
@@ -775,7 +990,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 6.35 180)
+				(at 20.32 7.62 180)
 				(length 2.54)
 				(name "MDI_TN_P2"
 					(effects
@@ -793,7 +1008,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 8.89 180)
+				(at 20.32 10.16 180)
 				(length 2.54)
 				(name "MDI_TP_P3"
 					(effects
@@ -811,7 +1026,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 11.43 180)
+				(at 20.32 12.7 180)
 				(length 2.54)
 				(name "MDI_TN_P3"
 					(effects
@@ -829,7 +1044,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 13.97 180)
+				(at 20.32 15.24 180)
 				(length 2.54)
 				(name "MDI_RP_P3"
 					(effects
@@ -847,7 +1062,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 16.51 180)
+				(at 20.32 17.78 180)
 				(length 2.54)
 				(name "MDI_RN_P3"
 					(effects
@@ -865,7 +1080,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 24.13 0)
+				(at -20.32 25.4 0)
 				(length 2.54)
 				(name "SPI_CS0"
 					(effects
@@ -883,7 +1098,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 19.05 180)
+				(at 20.32 20.32 180)
 				(length 2.54)
 				(name "MDI_RP_P4"
 					(effects
@@ -901,7 +1116,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 21.59 180)
+				(at 20.32 22.86 180)
 				(length 2.54)
 				(name "MDI_RN_P4"
 					(effects
@@ -919,7 +1134,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 24.13 180)
+				(at 20.32 25.4 180)
 				(length 2.54)
 				(name "MDI_TP_P4"
 					(effects
@@ -937,7 +1152,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 26.67 180)
+				(at 20.32 27.94 180)
 				(length 2.54)
 				(name "MDI_TN_P4"
 					(effects
@@ -955,7 +1170,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 29.21 180)
+				(at 20.32 30.48 180)
 				(length 2.54)
 				(name "USB_DP"
 					(effects
@@ -973,7 +1188,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 31.75 180)
+				(at 20.32 33.02 180)
 				(length 2.54)
 				(name "USB_DM"
 					(effects
@@ -1009,61 +1224,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -39.37 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -39.37 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -39.37 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -20.32 21.59 0)
+				(at -20.32 22.86 0)
 				(length 2.54)
 				(name "REF_CLK0"
 					(effects
@@ -1081,7 +1242,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 19.05 0)
+				(at -20.32 20.32 0)
 				(length 2.54)
 				(name "PERST_N"
 					(effects
@@ -1099,7 +1260,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 16.51 0)
+				(at -20.32 17.78 0)
 				(length 2.54)
 				(name "WDT_RST_N"
 					(effects
@@ -1117,7 +1278,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -20.32 13.97 0)
+				(at -20.32 15.24 0)
 				(length 2.54)
 				(name "EPHY_LED4"
 					(effects
