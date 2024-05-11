@@ -1,0 +1,184 @@
+(footprint "SPM7054VT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SPM7054VT")
+	(tags "Inductor (FeSi Core)")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b6459910-57dd-4ba3-a91f-22f959c02307")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SPM7054VT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e7496afa-0392-41fb-9792-39be8d2944c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "SPM7054VT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20435c01-88b8-487b-985c-8c076ed08397")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d441b5e4-78c5-4ca0-adb4-d4100936d18c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c11422f-fb09-4a10-8b0a-f565ecb55eea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f766dbf3-f0e7-48c5-af23-92f95ffd48f6")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01fe2ddd-c91d-40ec-8c79-c8fd4266e680")
+	)
+	(fp_circle
+		(center -4.825 0)
+		(end -4.825 0.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4894cf1f-7a06-432a-9f4a-f2e0e06a6804")
+	)
+	(fp_rect
+		(start -3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cdf2444e-8ac7-4338-b0e3-fe66d349803f")
+	)
+	(fp_line
+		(start -3.5 -3.5)
+		(end 3.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a24060f1-9d14-477e-9c3b-0a5949422787")
+	)
+	(fp_line
+		(start -3.5 3.5)
+		(end -3.5 -3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54dd20d1-3151-4a6f-bd3b-7ba86e779058")
+	)
+	(fp_line
+		(start 3.5 -3.5)
+		(end 3.5 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0201a1c1-117f-4e02-92a1-9427da71dcc6")
+	)
+	(fp_line
+		(start 3.5 3.5)
+		(end -3.5 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82b713b1-d00c-4e50-85d6-00a2e6576f0c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0398328a-542d-47ec-af2e-1a6053d557dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.975 0)
+		(size 2.85 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "94a8c801-2168-468b-a019-1010a2f9be88")
+	)
+	(pad "2" smd rect
+		(at 2.975 0)
+		(size 2.85 3.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cc36ff36-c9ca-4507-a965-53ab260a04b8")
+	)
+	(model "SPM7054VT-3R3M-D.stp"
+		(offset
+			(xyz 57.04000006 0 -38.58000125)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
