@@ -1,7 +1,7 @@
 (footprint "Conn_CAN-Bus"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RJ45 pcb socket")
 	(property "Reference" "CON1"
@@ -31,18 +31,6 @@
 			(justify right top)
 		)
 	)
-	(property "Footprint" "Conn_CAN-Bus"
-		(at 0 2.2 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "777c79da-9bf8-4754-9cf1-945062029111")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at -7.62 -6.8 0)
 		(unlocked yes)
@@ -52,6 +40,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -64,6 +53,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -554,7 +544,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a8a1ace2-086c-4b94-9367-3960c4df888a")
 	)
@@ -565,7 +555,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c6db5f24-f213-4b65-84b4-3009d38e88dd")
 	)
@@ -576,7 +566,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "520c5e0e-635e-4612-bcbe-6b4e9cb2a761")
 	)
@@ -587,7 +577,7 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8f806d72-4ba9-44a9-8f58-ecc834273341")
 	)
@@ -913,18 +903,6 @@
 		(uuid "1cf719f4-b265-4ff9-87f4-724697e86eae")
 	)
 	(group ""
-		(uuid "292a8f5a-0217-46c6-918e-13e385e23816")
-		(members "023f29a2-a312-4d1f-a7d7-b698f0c2b50c" "1b36fb8e-b883-4dee-a248-a99bcf78c570"
-			"1cf719f4-b265-4ff9-87f4-724697e86eae" "5e694d56-818f-4fd4-8d3e-da3221d362b4"
-			"636d50da-4efd-4400-8b77-510fb2324b1f" "67af5211-fd27-43f3-9a3b-4f6fad902aa2"
-			"6f1b2c54-94ff-4499-813a-e63ae3b89ae4" "828020fe-35a6-4f0c-8d26-d483f4012284"
-			"831e2641-6f65-47cd-95b7-a27bff263bcb" "8dea212c-aa5a-4fe9-a839-fdb4f6a1b6df"
-			"a4ca7559-c164-40c2-8630-db1a1cf58b48" "b0d8bb1b-3b3f-453c-a51a-051a0e1df0af"
-			"ca4f8c16-e460-47e3-87b0-55efdf5e10d0" "ccc3627d-cd12-4210-9b73-678f49de26fc"
-			"cf82d407-f78d-4d33-b42a-5c93596f21ea"
-		)
-	)
-	(group ""
 		(uuid "62a5252e-1be1-4574-9cf1-fd0f5c7a47f3")
 		(members "022bbc4c-285f-40e5-81b1-fd0636c67f33" "0a6856dc-17f1-4ab7-bd92-653dfd2f2aa5"
 			"0b173e09-f548-44f7-992e-5b2cd77bac9a" "10b92fed-f335-4b60-9a3d-1c587113a9ac"
@@ -967,6 +945,41 @@
 			"9ed3806a-6abf-4d76-a691-4bd2129dc2ea" "b7beca54-a62d-4fdd-973d-8546b0a11d34"
 			"c2887075-2a29-499b-b7ac-b12bb69b1dfd" "cff71f92-9be7-4c63-9967-85d482580ba8"
 			"e5fefce5-6f8c-4c86-aae8-f7d3bddf92d4" "ea7e22ae-9f07-4274-95f4-5c7904878bf2"
+		)
+	)
+	(group ""
+		(uuid "292a8f5a-0217-46c6-918e-13e385e23816")
+		(members "023f29a2-a312-4d1f-a7d7-b698f0c2b50c" "1b36fb8e-b883-4dee-a248-a99bcf78c570"
+			"1cf719f4-b265-4ff9-87f4-724697e86eae" "5e694d56-818f-4fd4-8d3e-da3221d362b4"
+			"636d50da-4efd-4400-8b77-510fb2324b1f" "67af5211-fd27-43f3-9a3b-4f6fad902aa2"
+			"6f1b2c54-94ff-4499-813a-e63ae3b89ae4" "828020fe-35a6-4f0c-8d26-d483f4012284"
+			"831e2641-6f65-47cd-95b7-a27bff263bcb" "8dea212c-aa5a-4fe9-a839-fdb4f6a1b6df"
+			"a4ca7559-c164-40c2-8630-db1a1cf58b48" "b0d8bb1b-3b3f-453c-a51a-051a0e1df0af"
+			"ca4f8c16-e460-47e3-87b0-55efdf5e10d0" "ccc3627d-cd12-4210-9b73-678f49de26fc"
+			"cf82d407-f78d-4d33-b42a-5c93596f21ea"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/rj45.stp"
+		(offset
+			(xyz -7.65 -1.08 5.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/rj45.stp"
+		(offset
+			(xyz 7.65 -1.08 5.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
 		)
 	)
 )
