@@ -2020,7 +2020,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "unconnected-(CON1-PadNC)_1")
+			(net 23 "unconnected-(CON1-PadNC)")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(solder_mask_margin 0.1016)
@@ -2033,7 +2033,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "unconnected-(CON1-PadNC)")
+			(net 25 "unconnected-(CON1-PadNC)_1")
 			(pinfunction "NC")
 			(pintype "no_connect")
 			(solder_mask_margin 0.1016)
@@ -9986,6 +9986,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c26c86e-602f-41d0-999d-e755200ba215")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "eshop" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a502d690-b317-4187-b802-aeb194111fe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Note" "Populated IHLP2525CZER1R5M01 on the first prototype"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5db007ed-36c2-404a-9570-353ab146d406")
 			(effects
 				(font
 					(size 1 1)
@@ -18490,11 +18516,25 @@
 				(justify mirror)
 			)
 		)
+		(property "eshop" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bed15269-1f6e-4e80-994f-1767c0d05940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/43d07285-e372-4ec0-81a4-f909c4b185c6")
 		(sheetname "/")
 		(sheetfile "HAPCAN-Ethernet_interface.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -22877,11 +22917,25 @@
 				(justify mirror)
 			)
 		)
+		(property "eshop" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e50a060b-b870-4ded-a7e2-f9f9824d94af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/69217aea-20c2-494f-b11b-70c16f7e0d3a")
 		(sheetname "/")
 		(sheetfile "HAPCAN-Ethernet_interface.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)

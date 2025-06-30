@@ -18210,9 +18210,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "43d07285-e372-4ec0-81a4-f909c4b185c6")
 		(property "Reference" "R12"
 			(at 201.93 132.08 90)
@@ -18251,6 +18251,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "eshop" ""
 			(at 201.93 130.81 0)
 			(effects
 				(font
@@ -20067,9 +20076,9 @@
 		(at 201.93 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "69217aea-20c2-494f-b11b-70c16f7e0d3a")
 		(property "Reference" "R11"
 			(at 201.93 127 90)
@@ -20108,6 +20117,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "eshop" ""
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -20899,6 +20917,24 @@
 		)
 		(property "Mouser" "https://cz.mouser.com/ProductDetail/TDK/SPM7054VT-1R0M-D?qs=byeeYqUIh0Obb1lWNjuFvw%3D%3D"
 			(at 351.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "eshop" ""
+			(at 351.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "Populated IHLP2525CZER1R5M01 on the first prototype"
+			(at 351.79 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
