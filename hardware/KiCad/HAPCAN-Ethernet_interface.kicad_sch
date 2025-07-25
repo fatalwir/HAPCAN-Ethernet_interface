@@ -10089,6 +10089,17 @@
 		)
 		(uuid "08e73fdc-eae7-462b-a27f-80589c2f9a93")
 	)
+	(text "BQ32000 is designed to run the crystal\nwithout load capacitors"
+		(exclude_from_sim no)
+		(at 57.15 273.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "203545bc-d1a7-4e90-89ab-dcef7ea73cf4")
+	)
 	(text "Linux SoM"
 		(exclude_from_sim no)
 		(at 162.56 63.5 0)
